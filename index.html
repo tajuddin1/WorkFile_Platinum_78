@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        sub, sup {
+            font-size: 40%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+        }
+
+        .container{
+                width: 1000px;
+                margin: auto;
+        }
+        .wrapper{
+            display: flex;
+            color: #788188;
+            margin-bottom: 50px;
+        }
+        .left_slide {
+            flex-basis: 65%;
+        }
+        .left_slide h2{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.3em;
+        }
+        h1.title {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #788188;
+            font-weight: 600;
+        }
+        .right_slide {
+            flex-basis: 35%;
+            display: flex;
+            align-items: center;
+        }
+        .pricing_ul {
+            margin-top: 20px;
+            margin-left: 30px;
+            font-family: "Open Sans", sans-serif;
+            padding: 0;
+            margin-right: 10px;
+        }
+        .pricing_ul li p {
+            padding: 0px 0;
+            font-size: 14px;
+            margin: 0;
+        }
+        @media screen and (max-width:1024px) {
+            .container{
+                width: 95%;
+                margin: auto;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .wrapper{
+                flex-direction: column;
+            }
+            .left_slide {
+                margin-bottom: 30px;
+                width: 100%;
+                flex-basis: 65%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top: 50px;">
+        <h1 class="title">PLATINIUM MEMBERS ONLY</h1>
+        <div class="wrapper">
+            <div class="left_slide">
+                <h2>CALL FOR UPGRADE OPTIONS<br> 1.828.383.9928</h2>
+                <h2 style="margin-top: 30px;">UPGRADE TO PLATINUM AND RECEIVE:</h2>
+                <ul class="pricing_ul">
+                    <li style="list-style: none;"><p>Preferred Tier 1 Pricing on all Home Furnishings</p></li>
+                    <li><p>White Glove Delivery Discounts up to 70% Off</p></li>
+                    <li><p>Builder Direct 4% to 8% Cash Back on Cabinets, Flooring & Countertops </p></li>
+                    <li><p>Access to 150 National Members Only Home Improvement Showrooms Including </p></li>
+                    <li><p>Unlimited Design Services & Personal Concierge</p></li>
+                    <li><p>Platinum Members Only Rebates and Manufacturers Discounts</p></li>
+                    <li><p>Platinum Members Only Preferred pricing for local Installations</p></li>
+                </ul>
+            </div>
+            <div class="right_slide">
+                <img style="margin-top: auto;" width="100%" src="photo_3.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
